@@ -70,4 +70,4 @@ ip, dig, nslookup, netstat, nmcli, route
 3. kill command
 
 ## Lab:-
-Solve this lab >> (https://app.cybrary.it/browse/virtual-lab/linux-cli-basics)https://app.cybrary.it/browse/virtual-lab/linux-cli-basics
+Solve this lab >> (https://app.cybrary.it/browse/virtual-lab/linux-cli-basics)
