@@ -69,4 +69,5 @@ ip, dig, nslookup, netstat, nmcli, route
 2. job control commands
 3. kill command
 
-
+## Lab:-
+Solve this lab >> [Linux Lab](https://app.cybrary.it/browse/virtual-lab/linux-cli-basics)https://app.cybrary.it/browse/virtual-lab/linux-cli-basics
