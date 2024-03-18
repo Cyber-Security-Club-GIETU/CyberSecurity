@@ -4,10 +4,10 @@ Important key points for Linux
 It is a family of powerful and open-source Unix-like operating systems based on Linux kernel.
 
 ## Popular Linux Distros:-
-Kali Linux
-parrot
-Ubuntu
-Fedora
+Kali Linux<br>
+parrot<br>
+Ubuntu<br>
+Fedora<br>
 
 ## Linux Boot Process:-
 It includes 4 phases. These are-
