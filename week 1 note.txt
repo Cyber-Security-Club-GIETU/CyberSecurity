@@ -1,0 +1,87 @@
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦                                                                            ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦               _____________________________________________                ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦      ________|                                             |________       ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦     \        |                                             |       /       ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦      \       |               		                    |      /        ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦       \      |                 Week 1 Linux                |     /         ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦        \     |                 	                    |    /          ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦        /     |                	 	                    |    \          ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦       /      |                		                    |     \         ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦      /       |_____________________________________________|      \        ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦     /___________)                                 (________________\       ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦                                                                            ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦                                                                            ¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+
+
+
+
+
+"
+Linux:- It is a free and open source unix like operating syatem kernal which serves as a core component of different linux distros.
+Popular distros :- ubuntu, parrot, kali linux, fedora
+"
+
+
+"
+Linux boot process:- It means the stages which involved to initialize several system components
+Phases:- 
+	Bootstrap phase(BIOS/UEFI):- Inn this phase when you power on the system the bios initializes the hardware components like cpu,memory,storage devices and peripherals
+	Bootloader phase(GRUB/LILO):- The bootloader is loaded from boot devices (usually a ssd or hdd).The main task of bootloader is to locate and load the linux kernal to memory. 					      Additionally bootloader shows a boot menu if multiple os are installed
+	Kernal phase:- After kernal loaded in memory it initializes several essential hardware components , sets up memory management system, and prepares the system 					       for user space process. Then it mounts root filesystem which contains essential files to boot
+	Initialization phase:-  The init process is the first user-space process and serves as the parent process for all user-space processes.
+				It performs system initialization tasks such as starting system services, mounting additional filesystems, and configuring devices.
+"
+
+
+"
+Network Configuration using Linux:- This means setting up IP addrersses, configuring network interfaces, and managing network services.
+	IP:- The ip command allows you to configure IP addresses, network interfaces, and routing rules.
+	     We can use addr , a , address all are equivalent
+	dig(domain information groper):- dig is a command-line tool for querying DNS servers and retrieving DNS-related information such as IP addresses, domain records, 					 and name servers. dig retrieves DNS information.
+	nslookup(name server lookup):- nslookup is another command-line tool used for querying DNS servers to obtain domain-related information.
+	netstat:- netstat is a command-line utility for displaying network connections, routing tables, interface statistics,etc. This command also helps in determining 		  which ports are in use and which precesses using them.
+	nmcli(Network Manager Command-Line Interface):nmcli is a command-line tool for controlling NetworkManager, which is a service that manages network interfaces and 						      connections in many Linux distributions.
+	route:- route is a command-line utility for viewing and modifying the IP routing table.
+"
+
+
+"
+Storage management
+
+MBR(Master Boot Record):-The Master Boot Record (MBR) is a crucial data structure used in the partitioning scheme of most PC-compatible computer systems. It resides at the 			 very beginning of a storage device, typically a hard disk drive or solid-state drive.
+ext3 file system:- It is short for third extended file system. It was designed as an improvement over its predecessor, ext2, primarily to enhance reliability and 			   robustness
+NFS(Network File System):-It is a distributed file system protocol that allows remote file systems to be mounted over a network, enabling shared access to files and 				  directories among multiple clients and servers.
+Samba/SMB:-Samba is an open-source implementation of the Server Message Block (SMB) protocol, also known as the Common Internet File System (CIFS), which enables 	  	   interoperability between Unix/Linux-based systems and Microsoft Windows-based systems.
+NTFS(New Technology File System):-It is a proprietary file system developed by Microsoft and introduced with the Windows NT operating system. It has since become the default file system for all Microsoft Windows operating systems, including Windows XP, Windows Vista, Windows 7, Windows 8, and Windows 10.
+"
+
+
+"
+Cloud and Virtualization:-
+	1.OVF and OVA Templates:- OVF (Open Virtualization Format) and OVA (Open Virtual Appliance) are both standards for packaging and distributing virtual appliances or 				virtual machine (VM) templates. These formats are commonly used in virtualization environments, such as VMware vSphere, VirtualBox, and 				other virtualization platforms.
+	2. Container Technology and Docker Basics
+	3. Types of Cloud
+	4. Cloud Concepts
+	5. Network Address Translation(NAT)
+"
+
+
+"
+Linux Servers:-
+1.	Network Time Protocol(NTP)
+2.	Secure Shell(SSH)
+3.	Apache and NGINX servers
+4.	Certificate Authority(CA)
+5.	Domain name System(DNS)
+6.	Dynamic Host Configuration Protocol(DHCP)
+7.	Authentication Servers
+8.	Proxy Servers
+9.	Virtual Private Networks(VPN)
+10.	Monitoring Servers
+11.	Database Servers
+12.	Mail Servers
+13.	Load Balancers
+
+"
