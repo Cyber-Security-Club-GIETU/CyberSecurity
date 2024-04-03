@@ -12,10 +12,10 @@ A computer network is a group of interconnected devices that are designed to com
 5. Remote Access
 
 ### Types of networks
-Local Area Network (LAN)
-Metropolitan Area Network (MAN)
-Wide Area Network (WAN)
-Personal Area Network (PAN)
+1. Local Area Network (LAN)
+2. Metropolitan Area Network (MAN)
+3. Wide Area Network (WAN)
+4. Personal Area Network (PAN)
 
 ### Network Topologies
 A network topology refers to how devices are connected in a network.
