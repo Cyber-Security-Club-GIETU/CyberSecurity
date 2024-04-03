@@ -20,12 +20,12 @@ A computer network is a group of interconnected devices that are designed to com
 ### Network Topologies
 A network topology refers to how devices are connected in a network.
 
-Bus
-Ring
-Star
-Mesh
-Tree
-Hybrid
+1. Bus
+2. Ring
+3. Star
+4. Mesh
+5. Tree
+6. Hybrid
 
 ### OSI Model
 The OSI (Open Systems Interconnection) model is a conceptual framework for understanding how computer networks work.
