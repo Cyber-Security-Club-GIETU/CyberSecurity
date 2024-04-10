@@ -1,0 +1,217 @@
+week-2
+
+
+1. what is networking?
+>A computer network is a group of interconnected devices that are designed to communicate and share information with each other.
+
+advantage:
+
+Connectivity: There is a negligible range of abilities required to connect to a modern computer network. The effortlessness of joining makes it workable for even youthful kids to start exploring the data. 
+Faster Problem-solving: Since an extensive procedure is disintegrated into a few littler procedures and each is taken care of by all the associated gadgets, an explicit issue can be settled in lesser time. 
+Reliability: Reliability implies backing up information. Due to some reason equipment crashes, and so on, the information gets undermined or inaccessible on one PC, and another duplicate of similar information is accessible on another workstation for future use, which prompts smooth working and further handling without interruption. 
+Flexible: This innovation is known to be truly adaptable, as it offers clients the chance to investigate everything about fundamental things, for example, programming without influencing their usefulness. 
+Security through Authorization: Security and protection of information are additionally settled through the system. As just the system clients are approved to get to specific records or applications,
+
+
+disadvantage:
+
+Expensive: Execution of the network can be expensive in the case of an initial setup, as the wires and the cost of the cable are high and sometimes equipment is also costly.
+Virus and Malware: Computer Networking can lead to the spreading of viruses to another computer through the network.
+Management of the network: Management of the Network is quite difficult as it requires skilled persons to handle that large network. It requires training of people who are employed in this work. 
+Loss of Information: In case of a crash of the Computer Network, it can lead to the loss of information or not being able to access information for some time. 
+The system can be Hacked: In the case of Wide Area Networks(WAN), there is a threat of Hacking of the System. Some security features should be added to prevent such things.
+
+
+
+uses of computer networking:
+
+
+Communication: Computer networks enable individuals and organizations to communicate with each other using various methods such as email, messaging, and video conferencing.
+Resource sharing: Networks allow users to share resources such as printers, scanners, and files, which can improve efficiency and reduce costs.
+Remote access: Networks enable users to access information and resources from anywhere in the world, providing greater flexibility and convenience.
+Collaboration: Networks facilitate collaboration by enabling users to work together on projects, share ideas, and provide feedback in real time.
+
+
+
+Types of networks:
+
+ 1.Local Area Network (LAN)
+
+LAN or Local Area Network connects network devices in such a way that personal computers and workstations can share data, tools, and programs. The group of computers and devices are connected together by a switch, or stack of switches, using a private addressing scheme as defined by the TCP/IP protocol. 
+
+
+2.Metropolitan Area Network (MAN)
+
+MAN or Metropolitan area Network covers a larger area than that covered by a LAN and a smaller area as compared to WAN. MAN has a range of 5-50km. It connects two or more computers that are apart but reside in the same or different cities. It covers a large geographical area and may serve as an ISP (Internet Service Provider). MAN is designed for customers who need high-speed connectivity. Speeds of MAN range in terms of Mbps. It’s hard to design and maintain a Metropolitan Area Network.
+
+
+
+3.Wide Area Network (WAN)
+
+WAN or Wide Area Network is a computer network that extends over a large geographical area, although it might be confined within the bounds of a state or country. WAN has a range of above 50 km. A WAN could be a connection of LAN connecting to other LANs via telephone lines and radio waves and may be limited to an enterprise (a corporation or an organization) or accessible to the public. The technology is high-speed and relatively expensive.
+There are two types of WAN: Switched WAN and Point-to-Point WAN. WAN is difficult to design and maintain. Similar to a MAN, the fault tolerance of a WAN is less and there is more congestion in the network. A Communication medium used for WAN is PSTN or Satellite Link. Due to long-distance transmission, the noise and error tend to be more in WAN.
+
+
+4.personal area network (PAN)
+
+A personal area network (PAN) connects electronic devices within a user's immediate area. The size of a PAN ranges from a few centimeters to a few meters. One of the most common real-world examples of a PAN is the connection between a Bluetooth earpiece and a smartphone.
+
+
+
+Network topologies:
+
+
+1.Mesh Topology
+2.Star Topology
+3.Bus Topology
+4.Ring Topology
+5.Tree Topology
+6.Hybrid Topology
+
+1.Bus
+
+In bus network topology, all computers and network devices are connected to a single cable called bus. The bus cable acts as the shared communication medium for all the devices in the network.
+When a device wants to transmit data, it sends the data on the bus cable. All other devices receive and check whether they are the intended recipients. The intended recipient accepts the data while others discard it.
+Bus topology is inexpensive, easy to implement, and adds devices easily. However, it can be difficult to troubleshoot and isolate faults. Also, if the main bus cable fails, the entire network fails.
+
+
+2.Ring
+
+In ring network topology, all nodes are connected to form a circle. Each node is connected to the next node through a point-to-point link.
+Data travels circularly from one node to the next until it reaches the intended recipient. Nodes can transmit data only after receiving a token, a special kind of data packet.
+Ring topology provides equal access to the network for all nodes. However, failure of any link can bring down the entire network. Adding or removing nodes also disrupts the network
+
+
+
+3.Star
+
+In a star network topology, all nodes are connected to a central device called a hub through a point-to-point link. The hub acts as a central node that manages and controls the entire network.
+All data transmitted between nodes passes through the hub. The hub ensures that the data is directed to the intended recipient.
+Star topology is easy to set up and expand, and faults are easily isolated. However, the hub represents a single point of failure. If the hub goes down, the entire network suffers. Star topology also provides limited bandwidth since all data flows through the hub.
+
+4.Mesh
+
+Every node in a mesh topology is linked to every other node. Point-to-point linkages connect the nodes to one another. Multiple links between nodes in the network can increase redundancy.
+Data travels across the network using the shortest path available. If a link fails, the network automatically routes traffic through alternate paths.
+Mesh topology is highly fault-tolerant and provides a lot of bandwidth. However, it is difficult and expensive to implement because the number of connections grows exponentially with the number of nodes. 
+
+5.Tree
+
+A tree topology combines the characteristics of bus and star topologies. It consists of groups of star-configured workstations connected to a bus backbone cable.
+Tree topology allows the expansion of a star network while still maintaining a bus structure. However, the backbone cable remains a single point of failure. Tree topology can be difficult to configure and wire.
+
+
+
+
+     OSI Model
+
+>The OSI (Open Systems Interconnection) model is a conceptual framework for understanding how computer networks work. It is composed of seven layers, each of which serves a specific purpose in the communication process.
+
+
+1. Physical Layer
+
+The physical layer is responsible for the physical cable or wireless connection between network nodes. It defines the connector, the electrical cable or wireless technology connecting the devices, and is responsible for transmission of the raw data, which is simply a series of 0s and 1s, while taking care of bit rate control.
+
+
+2. Data Link Layer
+
+The data link layer establishes and terminates a connection between two physically-connected nodes on a network. It breaks up packets into frames and sends them from source to destination. This layer is composed of two parts—Logical Link Control (LLC), which identifies network protocols, performs error checking and synchronizes frames, and Media Access Control (MAC) which uses MAC addresses to connect devices and define permissions to transmit and receive data.
+
+
+3. Network Layer
+
+The network layer has two main functions. One is breaking up segments into network packets, and reassembling the packets on the receiving end. The other is routing packets by discovering the best path across a physical network. The network layer uses network addresses (typically Internet Protocol addresses) to route packets to a destination node.
+
+
+4.Transport Layer
+
+transport layer takes data transferred in the session layer and breaks it into “segments” on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer. The transport layer carries out flow control, sending data at a rate that matches the connection speed of the receiving device, and error control, checking if data was received incorrectly and if not, requesting it again.
+
+5. Session Layer
+
+The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoints during a data transfer—if the session is interrupted, devices can resume data transfer from the last checkpoint.
+
+
+6. Presentation Layer
+
+The presentation layer prepares data for the application layer. It defines how two devices should encode, encrypt, and compress data so it is received correctly on the other end. The presentation layer takes any data transmitted by the application layer and prepares it for transmission over the session layer.
+
+
+7. Application Layer
+
+The application layer is used by end-user software such as web browsers and email clients. It provides protocols that allow software to send and receive information and present meaningful data to users. A few examples of application layer protocols are the Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
+
+          
+                TCP/IP Model
+
+
+>The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a widely used networking model that provides a framework for communication over the internet.
+>It is composed of four layers, each with its own set of protocols and functions.
+
+
+Layers  of  Tcp/Ip Model:
+
+1. Physical Layer
+It is a group of applications requiring network communications. This layer is responsible for generating the data and requesting connections. It acts on behalf of the sender and the Network Access layer on the behalf of the receiver. During this article, we will be talking on the behalf of the receiver.
+
+2. Data Link Layer
+The packet’s network protocol type, in this case, TCP/IP, is identified by the data-link layer. Error prevention and “framing” are also provided by the data-link layer. Point-to-Point Protocol (PPP) framing and Ethernet IEEE 802.2 framing are two examples of data-link layer protocols.
+
+
+3. Internet Layer
+This layer parallels the functions of OSI’s Network layer. It defines the protocols which are responsible for the logical transmission of data over the entire network. The main protocols residing at this layer are as follows:
+
+IP: IP stands for Internet Protocol and it is responsible for delivering packets from the source host to the destination host by looking at the IP addresses in the packet headers. IP has 2 versions: IPv4 and IPv6. IPv4 is the one that most websites are using currently. But IPv6 is growing as the number of IPv4 addresses is limited in number when compared to the number of users.
+ICMP: ICMP stands for Internet Control Message Protocol. It is encapsulated within IP datagrams and is responsible for providing hosts with information about network problems.
+ARP: ARP stands for Address Resolution Protocol. Its job is to find the hardware address of a host from a known IP address. ARP has several types: Reverse ARP, Proxy ARP, Gratuitous ARP, and Inverse ARP.
+
+4. Transport Layer
+The TCP/IP transport layer protocols exchange data receipt acknowledgments and retransmit missing packets to ensure that packets arrive in order and without error. End-to-end communication is referred to as such. Transmission Control Protocol (TCP) and User Datagram Protocol are transport layer protocols at this level (UDP).
+
+TCP: Applications can interact with one another using TCP as though they were physically connected by a circuit. TCP transmits data in a way that resembles character-by-character transmission rather than separate packets. A starting point that establishes the connection, the whole transmission in byte order, and an ending point that closes the connection make up this transmission.
+UDP: The datagram delivery service is provided by UDP, the other transport layer protocol. Connections between receiving and sending hosts are not verified by UDP. Applications that transport little amounts of data use UDP rather than TCP because it eliminates the processes of establishing and validating connections.
+
+4. Transport Layer
+The TCP/IP transport layer protocols exchange data receipt acknowledgments and retransmit missing packets to ensure that packets arrive in order and without error. End-to-end communication is referred to as such. Transmission Control Protocol (TCP) and User Datagram Protocol are transport layer protocols at this level (UDP).
+
+TCP: Applications can interact with one another using TCP as though they were physically connected by a circuit. TCP transmits data in a way that resembles character-by-character transmission rather than separate packets. A starting point that establishes the connection, the whole transmission in byte order, and an ending point that closes the connection make up this transmission.
+UDP: The datagram delivery service is provided by UDP, the other transport layer protocol. Connections between receiving and sending hosts are not verified by UDP. Applications that transport little amounts of data use UDP rather than TCP because it eliminates the processes of establishing and validating connections.
+
+NTP: NTP stands for Network Time Protocol. It is used to synchronize the clocks on our computer to one standard time source. It is very useful in situations like bank transactions. Assume the following situation without the presence of NTP. Suppose you carry out a transaction, where your computer reads the time at 2:30 PM while the server records it at 2:28 PM. The server can crash very badly if it’s out of sync.
+
+
+
+Networking Devices:
+
+These are physical devices that allow hardware on a computer network to communicate and interact with one another. Example: Hub, Switch, Router, etc.
+Network devices, also known as networking hardware, are physical devices that allow hardware on a computer network to communicate and interact with one another. For example Repeater, Hub, Bridge, Switch, Routers, Gateway, Brouter, and NIC, etc.
+1. Repeater – A repeater operates at the physical layer. Its job is to regenerate the signal over the same network before the signal becomes too weak or corrupted to extend the length to which the signal can be transmitted over the same network. An important point to be noted about repeaters is that they not only amplify the signal but also regenerate it. When the signal becomes weak, they copy it bit by bit and regenerate it at its star topology connectors connecting following the original strength. It is a 2-port device. 
+2. Hub – A hub is a basically multi-port repeater. A hub connects multiple wires coming from different branches, for example, the connector in star topology which connects different stations. Hubs cannot filter data, so data packets are sent to all connected devices.  In other words, the collision domain of all hosts connected through Hub remains one.  Also, they do not have the intelligence to find out the best path for data packets which leads to inefficiencies and wastage. 
+Types of Hub 
+•	Active Hub:- These are the hubs that have their power supply and can clean, boost, and relay the signal along with the network. It serves both as a repeater as well as a wiring centre. These are used to extend the maximum distance between nodes.
+•	Passive Hub:- These are the hubs that collect wiring from nodes and power supply from the active hub. These hubs relay signals onto the network without cleaning and boosting them and can’t be used to extend the distance between nodes.
+•	Intelligent Hub:- It works like an active hub and includes remote management capabilities. They also provide flexible data rates to network devices. It also enables an administrator to monitor the traffic passing through the hub and to configure each port in the hub.
+3. Bridge – A bridge operates at the data link layer. A bridge is a repeater, with add on the functionality of filtering content by reading the MAC addresses of the source and destination. It is also used for interconnecting two LANs working on the same protocol. It has a single input and single output port, thus making it a 2 port device.
+4. Switch – A switch is a multiport bridge with a buffer and a design that can boost its efficiency (a large number of ports imply less traffic) and performance. A switch is a data link layer device. The switch can perform error checking before forwarding data, which makes it very efficient as it does not forward packets that have errors and forward good packets selectively to the correct port only.  In other words, the switch divides the collision domain of hosts, but the broadcast domain remains the same. 
+
+s – A router is a device like a switch that routes data packets based on their IP addresses. The router is mainly a Network Layer device. Routers normally connect LANs and WANs and have a dynamically updating routing table based on which they make decisions on routing the data packets. The router divides the broadcast domains of hosts connected through it.
+ 
+ 
+6. Gateway – A gateway, as the name suggests, is a passage to connect two networks that may work upon different networking models. They work as messenger agents that take data from one system, interpret it, and transfer it to another system. Gateways are also called protocol converters and can operate at any network layer. Gateways are generally more complex than switches or routers. A gateway is also called a protocol converter. 
+7. Brouter – It is also known as the bridging router is a device that combines features of both bridge and router. It can work either at the data link layer or a network layer. Working as a router, it is capable of routing packets across networks and working as the bridge, it is capable of filtering local area network traffic. 
+8. NIC – NIC or network interface card is a network adapter that is used to connect the computer to the network. It is installed in the computer to establish a LAN.  It has a unique id that is written on the chip, and it has a connector to connect the cable to it. The cable acts as an interface between the computer and the router or modem. NIC card is a layer 2 device which means that it works on both the physical and data link layers of the network model. 
+
+
+Network  Protocol
+
+
+Network protocols are a set of rules outlining how connected devices communicate across a network to exchange information easily and safely. Protocols serve as a common language for devices to enable communication irrespective of differences in software, hardware, or internal processes.
+
+Wireless Network:
+
+
+A wireless network refers to a computer network that makes use of Radio Frequency (RF) connections between nodes in the network. Wireless networks are a popular solution for homes, businesses, and telecommunications networks.
+
+
+
+
