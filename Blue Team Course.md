@@ -12,6 +12,7 @@
 - **SIEM**
 - **EDR**
 - **Incident Response**
+- **Vulnerability Management** 
 - **Digital Forensics**
 - **Malware Analysis**
 - **Threat Hunting**
