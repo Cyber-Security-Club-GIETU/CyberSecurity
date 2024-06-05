@@ -4,6 +4,7 @@
 - **Cyber Threats**
 - **Introduction to Blue Teaming**
 - **Network Security Concepts**
+- **Detecting Web Attacks**
 - **Network Traffic Analysis**
 - **Phishing Analysis**
 - **Threat Intelligence**
