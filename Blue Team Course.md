@@ -3,9 +3,11 @@
 - **Cyber Security Frameworks**
 - **Cyber Threats**
 - **Introduction to Blue Teaming**
+- **Cyber Defense Framework**
 - **Network Security Concepts**
-- **Detecting Web Attacks**
 - **Network Traffic Analysis**
+- **Detecting Web Attacks**
+- **Log Analysis**
 - **Phishing Analysis**
 - **Threat Intelligence**
 - **IDS/IPS**
