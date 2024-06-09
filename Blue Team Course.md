@@ -1,10 +1,10 @@
 # Blue Team Course
 
 - **[Cyber Security Frameworks](https://github.com/Cyber-Security-Club-GIETU/CyberSecurity/blob/21a265eb90a0c6ba38a46b9db4c7e6fd3404bed9/Cybersecurity%20Frameworks.md)**
-- **Cyber Threats**
-- **Introduction to Blue Teaming**
-- **Cyber Defense Framework**
-- **Network Security Concepts**
+- **[Cyber Threats](https://github.com/Cyber-Security-Club-GIETU/CyberSecurity/blob/20e51501638e293c02e73384171a6a1949417d8d/Cyber%20Threats.md)**
+- **[Introduction to Blue Teaming](https://github.com/Cyber-Security-Club-GIETU/CyberSecurity/blob/20e51501638e293c02e73384171a6a1949417d8d/Introduction%20to%20Blue%20Teaming.md)**
+- **[Cyber Defense Framework](https://github.com/Cyber-Security-Club-GIETU/CyberSecurity/blob/20e51501638e293c02e73384171a6a1949417d8d/Cyber%20Defense%20Frameworks.md)**
+- **[Network Security Concepts](https://github.com/Cyber-Security-Club-GIETU/CyberSecurity/blob/20e51501638e293c02e73384171a6a1949417d8d/Network%20Security%20Concepts.md)**
 - **Network Traffic Analysis**
 - **Detecting Web Attacks**
 - **Log Analysis**
